@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuntoFotoBrujula</string>
+    
+    <string name="info_puntos_cardinales">Introduce un punto cardinal</string>
+    <string name="puntos_cardinales_prompt">Elija un punto cardinal</string>
+    <string name="boton_buscar">¡Buscar!</string>
+    
+    <string name="title_activity_actividad_brujula">ActividadBrujula</string>
+	<string name="iv_brujula_info">Rosa de los vientos</string>
+    <string name="descripcionFlecha">Flecha</string>
+    
+	<string name="tv_seleccionado">Busco algo</string>
+    <string name="descripcionBrujula">Brujula</string>
+    
+	
+	
+</resources>

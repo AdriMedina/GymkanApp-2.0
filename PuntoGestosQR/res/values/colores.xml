@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="fondo_gris">#4c5d65</color>
+	<color name="fondo_gris_coloreando">#4c5d65</color>
+	<color name="pintura_azul">#18fefe</color>
+	<color name="pintura_roja">#d2564c</color>
+</resources>

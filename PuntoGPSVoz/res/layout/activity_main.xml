@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_gris"
+    tools:context="${relativePackage}.${activityClass}" >
+
+	<TextView
+		android:id="@+id/tituloDisplayLatitud"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginStart="40dp"
+	    android:layout_marginTop="10dp"
+	    android:textColor="@color/pintura_azul"
+	    android:text="@string/display_latitud"
+	    android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/displayLatitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tituloDisplayLatitud"
+        android:layout_alignLeft="@+id/tituloDisplayLatitud"
+        android:layout_below="@+id/tituloDisplayLatitud"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/valor_defecto"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+     <TextView
+         android:id="@+id/tituloDisplayLongitud"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignStart="@+id/tituloDisplayLatitud"
+         android:layout_alignLeft="@+id/tituloDisplayLatitud"
+         android:textColor="@color/pintura_azul"
+         android:layout_below="@+id/displayLatitud"
+         android:layout_marginTop="29dp"
+         android:textSize="19sp"
+         android:text="@string/display_longitud" />
+
+     <TextView
+         android:id="@+id/displayLongitud"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignStart="@+id/tituloDisplayLongitud"
+         android:layout_alignLeft="@+id/tituloDisplayLongitud"
+         android:layout_below="@+id/tituloDisplayLongitud"
+         android:layout_marginStart="30dp"
+         android:layout_marginLeft="30dp"
+         android:text="@string/valor_defecto"
+         android:textColor="#FFFFFF"
+         android:textSize="19sp" />
+
+     <Button
+         android:id="@+id/talk_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/displayLongitud"
+         android:layout_centerHorizontal="true"
+         android:textColor="#FFFFFF"
+         android:layout_marginTop="182dp"
+         android:text="@string/boton_hablar" />
+
+     <Button
+         android:id="@+id/boton_ayuda"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:textColor="#FFFFFF"
+         android:text="@string/texto_boton_ayuda"
+         android:onClick="ayuda" />
+
+     <TextView
+         android:id="@+id/display_correcto"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/displayLongitud"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="90dp"
+         android:text="@string/texto_correcto"
+         android:textColor="@color/pintura_azul"
+         android:visibility="invisible"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

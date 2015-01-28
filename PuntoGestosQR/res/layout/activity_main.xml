@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo"
+    android:background="@color/fondo_gris"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    	<TextView
+		android:id="@+id/tituloDisplayLatitud"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginStart="40dp"
+	    android:layout_marginTop="10dp"
+	    android:textColor="@color/pintura_azul"
+	    android:text="@string/display_latitud"
+	    android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/displayLatitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tituloDisplayLatitud"
+        android:layout_alignLeft="@+id/tituloDisplayLatitud"
+        android:layout_below="@+id/tituloDisplayLatitud"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/valor_defecto"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+     <TextView
+         android:id="@+id/tituloDisplayLongitud"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignStart="@+id/tituloDisplayLatitud"
+         android:layout_alignLeft="@+id/tituloDisplayLatitud"
+         android:textColor="@color/pintura_azul"
+         android:layout_below="@+id/displayLatitud"
+         android:layout_marginTop="29dp"
+         android:textSize="19sp"
+         android:text="@string/display_longitud" />
+
+     <TextView
+         android:id="@+id/displayLongitud"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignStart="@+id/tituloDisplayLongitud"
+         android:layout_alignLeft="@+id/tituloDisplayLongitud"
+         android:layout_below="@+id/tituloDisplayLongitud"
+         android:layout_marginStart="30dp"
+         android:layout_marginLeft="30dp"
+         android:text="@string/valor_defecto"
+         android:textColor="#FFFFFF"
+         android:textSize="19sp" />
+
+</RelativeLayout>

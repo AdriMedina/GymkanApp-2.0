@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuntoGPSVoz</string>
+        
+    <string name="display_latitud">Latitud</string>
+    <string name="display_longitud">Longitud</string>
+    <string name="valor_defecto">-</string>
+    <string name="boton_hablar">Hablar</string>
+    <string name="texto_boton_ayuda">Ayuda</string>
+    <string name="texto_correcto">¿Correcto?</string>
+    <string name="ayuda">\n\nTras pulsar el botón "Hablar" puede pronunciar "latitud" o "longitud" para introducir o modificar la
+        				 coordenada deseada. Si no se especifica "latitud" o "longitud" se insertará el valor en el siguiente
+        				 del último valor introducido.\n\nCuando esté contento con los valores introducidos, vuelva a pulsar el botón
+        				 "Hablar" y pronuncie "correcto" para iniciar la navegación GPS.</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuntoMovimientoSonido</string>
+    
+    <string name="infoMovimientos">Movimientos: </string>
+    <string name="descripMovimientos1">1. Vertical arriba</string>
+    <string name="descripMovimientos2">2. Vertical abajo</string>
+    <string name="descripMovimientos3">3. Horizontal izquierda</string>
+    <string name="descripMovimientos4">4. Horizontal derecha</string>
+    <string name="descripMovimientos5">5. Boca arriba</string>
+    <string name="descripMovimientos6">6. Boca abajo</string>
+    
+    <string name="infoValores">Valores: </string>
+	<string name="valX">Valor de X: </string>
+    <string name="valY">Valor de Y: </string>
+    <string name="valZ">Valor de Z: </string>
+
+    
+    <string name="title_activity_actividad_valores">ActividadValores</string>
+    
+    <string name="resultado">RESULTADO</string>
+    
+	
+</resources>

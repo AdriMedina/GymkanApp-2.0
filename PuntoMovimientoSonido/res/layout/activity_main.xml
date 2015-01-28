@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tv_infoMovimientos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/infoMovimientos"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <TextView
+        android:id="@+id/tv_descripMovimientos1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_infoMovimientos"
+        android:layout_below="@+id/tv_infoMovimientos"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/descripMovimientos1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_descripMovimientos2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_infoMovimientos"
+        android:layout_below="@+id/tv_descripMovimientos1"
+        android:layout_marginLeft="31dp"
+        android:text="@string/descripMovimientos2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_descripMovimientos3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_infoMovimientos"
+        android:layout_below="@+id/tv_descripMovimientos2"
+        android:layout_marginLeft="31dp"
+        android:text="@string/descripMovimientos3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_descripMovimientos4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_infoMovimientos"
+        android:layout_below="@+id/tv_descripMovimientos3"
+        android:layout_marginLeft="31dp"
+        android:text="@string/descripMovimientos4"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_descripMovimientos5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_infoMovimientos"
+        android:layout_below="@+id/tv_descripMovimientos4"
+        android:layout_marginLeft="31dp"
+        android:text="@string/descripMovimientos5"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_descripMovimientos6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_infoMovimientos"
+        android:layout_below="@+id/tv_descripMovimientos5"
+        android:layout_marginLeft="31dp"
+        android:text="@string/descripMovimientos6"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+    
+  	<TextView
+        android:id="@+id/tv_infoValores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_infoMovimientos"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_descripMovimientos6"
+        android:layout_marginTop="17dp"
+        android:text="@string/infoValores"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  	
+    <TextView
+        android:id="@+id/txtAccX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_descripMovimientos6"
+        android:layout_below="@+id/tv_infoValores"
+        android:layout_centerVertical="true"
+        android:text="@string/valX"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtAccY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_descripMovimientos6"
+        android:layout_below="@+id/txtAccX"
+        android:text="@string/valY"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtAccZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_descripMovimientos6"
+        android:layout_below="@+id/txtAccY"
+        android:text="@string/valZ"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:text="@string/resultado"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+</RelativeLayout>

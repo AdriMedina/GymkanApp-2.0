@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuntoGestosQR</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_actividad_informacion">Informacion</string>
+    <string name="Dibujar">¡Dibuja!</string>
+    <string name="title_activity_actividad_dibuja">ActividadDibuja</string>
+    <string name="DibujaInfo">Pantalla para dibujar los gestos</string>
+    <string name="title_activity_informacion">Informacion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>  
+    <string name="display_latitud">Latitud</string>
+    <string name="display_longitud">Longitud</string> 
+    <string name="valor_defecto">-</string>
+
+</resources>

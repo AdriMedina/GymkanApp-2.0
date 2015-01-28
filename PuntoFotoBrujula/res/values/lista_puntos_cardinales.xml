@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="puntosCardinales">
+	    <item>Norte</item>
+	    <item>Sur</item>
+	    <item>Oeste</item>
+	    <item>Este</item>
+	</string-array>
+</resources>
